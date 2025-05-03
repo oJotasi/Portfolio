@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Opcion1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">emailjs.init('tTYD96_K0PD_IXq7J')</script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="col-12 col-xl-3 columna-izquierda">
+        <div class="texto">
+            <h2 style="font-size: 5vh">José Andrade</h2>
+            <h3 style="font-size: 3vh">Analista en Sistemas</h3>
+          <br>
+          <nav class="nav flex-column d-none d-xl-block">
+            <a class="nav-link active" href="#seccion1">Inicio</a>
+            <a class="nav-link" href="#seccion2">Sobre Mi</a>
+            <a class="nav-link" href="#seccion3">Proyectos</a>
+            <a class="nav-link" href="#seccion4">Contacto</a>
+          </nav>
+          <br><br>
+          <figure>
+            <a href=""><img src="Imagenes/instagram-167-svgrepo-com.svg" alt="Instagram" title="Instagram" class="redes"></a>
+            <a href="https://github.com/oJotasi"><img src="Imagenes/github-142-svgrepo-com.svg" alt="Github" title="Github" class="redes"></a>
+            <a href=""><img src="Imagenes/whatsapp-svgrepo-com.svg" alt="Whatsapp" title="Whatsapp" class="redes"></a>
+          </figure>
+        </div>
+    </div>
+    
+    <div class="col-12 col-xl-9 columna-derecha">
+        <div id="seccion1" class="seccion">
+          <h2 class="text-primary">Inicio</h2>
+          <p>
+          ¡Bienvenido a mi portfolio! Mi nombre es José Andrade. Este sitio fue creado para mostrar mis proyectos, conocimientos y experiencia profesional en el desarrollo de software y soluciones tecnológicas.
+          </p>
+          <p>
+          A lo largo de mi formación y experiencia, he trabajado en distintos entornos de programación y tecnologías que me han permitido construir soluciones funcionales, escalables y bien diseñadas.
+          </p>
+          <p>
+           Te invito a explorar mis proyectos y a contactarme si deseas colaborar o tienes alguna consulta.
+        </p>
+        </div>
+
+        <div id="seccion2" class="seccion">
+          <h2 class="text-primary">Sobre mi</h2>
+          <p>Soy alto programador</p>
+          <p>
+          Actualmente soy estudiante avanzado de la carrera de Analista en Sistemas con pasión por la programación y las ciencias de la computación. Me considero una persona proactiva, con buena capacidad de aprendizaje y una fuerte orientación a la resolución de problemas.
+          </p>
+          <p>Poseo diversos conocimientos sobre Bases de datos, lenguajes de programacion, compiladores, redes, sistemas operativos, etc.</p>
+          
+          <p>
+            Algunas de las tecnologías y herramientas que manejo incluyen: 
+          </p>
+          <br>
+
+          <figure>
+            <img src="Imagenes/postgresql.svg" alt="postgresql" class="tecnologias" title="postgresql">
+            <img src="Imagenes/docker.svg" alt="docker" class="tecnologias" title="docker">
+            <img src="Imagenes/C.svg" alt="C" class="tecnologias" title="C">
+            <img src="Imagenes/html5.svg" alt="html" class="tecnologias" title="html">
+            <img src="Imagenes/css3.svg" alt="css" class="tecnologias" title="css">
+            <img src="Imagenes/java.svg" alt="java" class="tecnologias" title="java">
+            <img src="Imagenes/bison.png" alt="felx/bison" class="tecnologias" title="felx y bison">
+            <img src="Imagenes/vmware.svg" alt="vmware" class="tecnologias" title="vmware">
+          </figure>
+
+        </div>
+
+        <div id="seccion3" class="seccion">
+          <h2 class="text-primary">Proyectos</h2>
+           <div class="card p-4 mb-3">
+                <div class="row g-4 align-items-center">
+                <!-- Columna de texto -->
+                    <div class="col-lg-6">
+                        <h1 class="title mb-4">Aleph</h1>
+                        <p class="lead mb-4" style="font-size: 25px;">Aleph es un lenguaje de programación interpretado, diseñado específicamente para la manipulación de listas y conjuntos. Implementado en C usando Flex y Bison, su núcleo está basado en árboles de sintaxis abstracta (AST) y un sistema de tipos dinámico.</p>
+                        <div class="mb-4">  
+                          <span class="badge tech-badge p-2 me-1 mb-2">C</span>
+                          <span class="badge tech-badge p-2 me-1 mb-2">Flex</span>
+                          <span class="badge tech-badge p-2 me-1 mb-2">Bison</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                        <img src='Imagenes/aleph.png' alt='Imagen del proyecto' class='img-proyecto'>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="seccion4" class="seccion">
+          <h2 class="text-primary">Contacto</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 class="mt-5 mb-4 text-center">Envíame un Mensaje</h2>
+                        <br>
+                        <form id="formulario">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">Correo Electrónico</label>
+                                  <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                        
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                              <button type="submit" class="btn btn-primary" id="button">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="modal" id="modal">
+  <div class="container-modal">
+      <h2 class="tile">Mensaje enviado</h2>
+      <p class="mt-2" style="font-size: 20px;">Gracias por comunicarte conmigo. Respondere a tu mensaje lo mas pronto que pueda</p>
+      <div class="text-center">
+        <div class="btn btn-danger" id="cerrar" style="font-size: 20px;">Cerrar</div>
+      </div>
+  </div>
+</div>
+
+<script src="email.js"></script>
+<script src="codigo.js"></script>
+
+</body>
+</html>

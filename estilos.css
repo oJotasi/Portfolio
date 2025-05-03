@@ -1,0 +1,206 @@
+
+.columna-derecha {
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 20px;
+    background-color:rgb(12, 9, 42);
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 991.98px) {
+
+    .contenedor {
+        flex-direction: column; 
+        height: auto;           
+    }
+
+  .columna-derecha {
+    overflow: visible; /* quita el scroll */
+  }
+}
+
+.columna-izquierda {
+    height: 100vh;
+    background-color:rgb(12, 9, 42);
+    color: white;      
+}
+
+.seccion {
+    padding: 100px 0;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+.texto {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.redes {
+    height: 6vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.redes:hover {
+    text-decoration: dotted;
+    filter: brightness(1.5);  
+}
+
+.tecnologias{
+    height: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    transition: transform 0.3s ease;
+}
+
+.tecnologias:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background-color:rgb(12, 9, 42);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+p{
+    color: #bdcdd1;
+    font-size: 1.5em;
+}
+
+.container-proyecto{
+    max-width: 700px;
+    background-color: #1c1b3a;
+    padding: 30px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+}
+
+a.nav-link{
+    color: #007bff;
+    font-size: 3vh;
+    transition: all 0.2s ease-in-out;
+}
+
+a.nav-link:hover {
+    color: #00bfff;
+    font-size: 4vh;
+}
+
+/*color: #4c6daf;
+/* Cambiar el color de las etiquetas */
+.form-label {
+    color: #f3f3f3;
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Hacer las etiquetas negritas */
+    margin-bottom: 10px; /* Espaciado adicional debajo de las etiquetas */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+}
+
+.select2-container--default .select2-results__option {
+    color: black;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    color: black;
+    background-color: #d1d1d1;
+}
+
+/*menu hamburguesa*/
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .hamburger-icon {
+    font-size: 30px;
+    color: white;
+  }
+  
+  .menu-options {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #171634;
+    border: 1px solid #595959;
+    border-radius: 8px;
+    padding: 10px;
+    min-width: 150px;
+  }
+  
+  .menu-options a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+.menu-options a:hover {
+    background-color: #3b3a3a;
+  }
+
+.card{
+    background-color: #1c1b3a;
+    color: white;
+}
+  
+td, th {
+    word-wrap: break-word;
+    white-space: normal !important;
+    max-width: 250px; /* Ajusta según lo que necesites */
+}
+
+
+/*para mostrar los proyectos*/
+.img-proyecto{
+    width: 40vh;
+    height: 40vh;
+    margin-left: 15vh;
+}
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+
+.tech-badge {
+    background-color: rgba(79, 70, 229, 0.2);
+    border: 1px solid #4338ca;
+    color: #e0e7ff;
+    font-size: 1em;
+}
+
+.modal{
+    display: none;
+}
+
+.container-modal {
+    max-width: 600px;
+    background-color: #1c1b3a;
+    padding: 30px;
+    border: 2px solid #2d2d01;
+    border-radius: 12px;
+    margin: 100px auto;
+    animation: slideDown 0.4s ease forwards;
+  }
+  
+  /* Animación de bajada */
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
