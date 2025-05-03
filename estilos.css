@@ -17,6 +17,7 @@
 
   .columna-derecha {
     overflow: visible; /* quita el scroll */
+    height: auto;
   }
 }
 
@@ -161,9 +162,10 @@ td, th {
 
 /*para mostrar los proyectos*/
 .img-proyecto{
+    max-width: 100%;
     width: 40vh;
     height: 40vh;
-    margin-left: 15vh;
+    /*margin-left: 15vh;*/
 }
 .title {
     font-size: 2.5rem;
