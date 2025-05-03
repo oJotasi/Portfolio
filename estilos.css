@@ -93,7 +93,6 @@ a.nav-link:hover {
     font-size: 4vh;
 }
 
-/*color: #4c6daf;
 /* Cambiar el color de las etiquetas */
 .form-label {
     color: #f3f3f3;
@@ -103,6 +102,8 @@ a.nav-link:hover {
     text-transform: uppercase; /* Convertir texto a mayúsculas */
 }
 
+
+/*color de el select2 (fuente y fondo) */
 .select2-container--default .select2-results__option {
     color: black;
 }
@@ -148,15 +149,18 @@ a.nav-link:hover {
     background-color: #3b3a3a;
   }
 
+
+
 .card{
     background-color: #1c1b3a;
     color: white;
 }
   
+/*tablas*/
 td, th {
     word-wrap: break-word;
     white-space: normal !important;
-    max-width: 250px; /* Ajusta según lo que necesites */
+    max-width: 250px;
 }
 
 
@@ -165,7 +169,6 @@ td, th {
     max-width: 100%;
     width: 40vh;
     height: 40vh;
-    /*margin-left: 15vh;*/
 }
 .title {
     font-size: 2.5rem;
@@ -179,6 +182,8 @@ td, th {
     color: #e0e7ff;
 }
 
+
+/*modal*/
 .modal{
     display: none;
 }
@@ -191,16 +196,16 @@ td, th {
     border-radius: 12px;
     margin: 100px auto;
     animation: slideDown 0.4s ease forwards;
-  }
+}
   
-  /* Animación de bajada */
+/* Animación de bajada */
 @keyframes slideDown {
     0% {
       transform: translateY(-200px);
       opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
+}
+100% {
+    transform: translateY(0);
+    opacity: 1;
     }
 }
