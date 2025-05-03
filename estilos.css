@@ -69,7 +69,6 @@ body {
 
 p{
     color: #bdcdd1;
-    font-size: 1.5em;
 }
 
 .container-proyecto{
@@ -167,7 +166,7 @@ td, th {
     margin-left: 15vh;
 }
 .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: -0.025em;
 }
@@ -176,7 +175,6 @@ td, th {
     background-color: rgba(79, 70, 229, 0.2);
     border: 1px solid #4338ca;
     color: #e0e7ff;
-    font-size: 1em;
 }
 
 .modal{
@@ -194,7 +192,7 @@ td, th {
   }
   
   /* Animación de bajada */
-  @keyframes slideDown {
+@keyframes slideDown {
     0% {
       transform: translateY(-200px);
       opacity: 0;
@@ -203,4 +201,4 @@ td, th {
       transform: translateY(0);
       opacity: 1;
     }
-  }
+}
