@@ -10,11 +10,6 @@
 
 @media (max-width: 991.98px) {
 
-    .contenedor {
-        flex-direction: column; 
-        height: auto;           
-    }
-
   .columna-derecha {
     overflow: visible; /* quita el scroll */
     height: auto;
@@ -209,3 +204,14 @@ td, th {
     opacity: 1;
     }
 }
+
+/*footer*/
+.footer {
+    background-color: #0c092a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 1px solid #444;
+}
+  
